@@ -21,6 +21,7 @@ const readFile = async () => {
 
         // step 3: Read the content of the file
         const data = await fs.readFile('./text.txt', 'utf8');
+        console.log("try");
         console.log(data)
     } catch (error) {
         console.log(error)  
